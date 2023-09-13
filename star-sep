@@ -180,7 +180,4 @@ CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET -a)
 CELESTIA_VALOPER=$(celestia-appd keys show $CELESTIA_WALLET --bech val -a) 
 echo $CELESTIA_VALOPER 
 echo 'export CELESTIA_VALOPER='${CELESTIA_VALOPER} >> $HOME/.bash_profile 
-source $HOME/.bash_profile
-
---------------------------------------------
-با لینک  وارد دیسکورد پروژه بشید و به بخش mamaki faucet  برید و درس خودتون رو وارد کنید و درخواست فاست شبکه 
+source $HOME/.bash_profil
