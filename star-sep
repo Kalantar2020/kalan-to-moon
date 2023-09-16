@@ -177,5 +177,4 @@ CELESTIA_ADDR=$(celestia-appd keys show $CELESTIA_WALLET -a)
 } >> $HOME/.bash_prof
 
 ------------------------------------------------
-CELESTIA_VALOPER=$(celestia-appd keys show $CELESTIA_WALLET --bech val -a) 
-echo $CELESTIA_VALOP
+CELESTIA_VALOPER=$(celestia-appd keys show $CELESTIA_WALLET 
